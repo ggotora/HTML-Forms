@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailChimp Clone</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main flex">
+        <section class="logo-section flex">
+            <img src="./assets/images/ClipartKey_1048277.png" alt="MailChimp logo">
+        </section>
+        <section class="form-section">
+            <h1>Welcome to Mailchimp</h1>
+            <p>Find your people. Engage your customers. Build your brand. 
+                Do it all with Mailchimp’s Marketing Platform. Already 
+                have an account? <a href="#">Log in</a>
+
+            </p>
+            <form class="form">
+                <div class="field flex">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="field flex">
+                    <label for="username">Username</label>
+                    <input type="text" name="username">
+                </div>
+                <div class="field flex">
+                    <label for="password">Password<span>&#128065;</span><span>Show</span></label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="field flex">                    
+                    <button type="button">Sign Up</button>
+                    <div>
+                        <input type="checkbox" tabindex="0" class="hidden" id="checkbox">
+                        <label for="checkbox">I do not want to receive emails
+                            about new Mailchimp products, 
+                            best practices, or special offers
+                        </label>
+                    </div>
+                
+                </div>
+                <button class="button" type="submit">Submit</button>
+            </form>
+          </section>
+        </main>
+    
+</body>
+</html>
