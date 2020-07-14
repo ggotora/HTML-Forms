@@ -34,8 +34,8 @@ https://optimistic-snyder-198b69.netlify.app/
 ​
 Contributions, issues and feature requests are welcome!
 ​
-Feel free to check the <a href=""> issues page</a>.
-​
+Feel free to check the <a href="https://github.com/ggotora/HTML-Forms/issues"> issues page</a>.
+​ 
 ## Show your support
 ​
 Give a ⭐️ if you like this project!
