@@ -12,6 +12,7 @@ body {
 }
 .zero-mgn {
     margin: 0;
+    font-size: 13px;
 }
 
 .nav {
@@ -50,7 +51,7 @@ body {
 /* main  */
 .form {
     
-    width: 25%;
+    width: 30%;
     background-color: #fff;
     margin: auto;
     border: 1px solid rgba(0, 0, 0, 0.274);
@@ -85,7 +86,7 @@ body {
     position: relative;
     left: 92%;
     top: -30px;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 .consent {
     font-style: italic;
