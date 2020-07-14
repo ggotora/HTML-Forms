@@ -1,0 +1,26 @@
+{
+  "name": "html-forms",
+  "version": "1.0.0",
+  "description": "HTML Forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggotora/HTML-Forms.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggotora/HTML-Forms/issues"
+  },
+  "homepage": "https://github.com/ggotora/HTML-Forms#readme",
+  "devDependencies": {
+    "hint": "^6.0.6",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
