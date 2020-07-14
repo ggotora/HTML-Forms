@@ -3,51 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MailChimp Clone</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Capriola&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-    <main class="main flex">
-        <section class="logo-section flex">
-            <img src="./assets/images/ClipartKey_1048277.png" alt="MailChimp logo">
-        </section>
-        <section class="form-section">
-            <h1>Welcome to Mailchimp</h1>
-            <p>Find your people. Engage your customers. Build your brand. 
-                Do it all with Mailchimp’s Marketing Platform. Already 
-                have an account? <a href="#">Log in</a>
-
+    <nav class="nav flex">
+        <div>
+            <p>Already have an Intuit account?</p>
+            <p><a href="#"> I forgot my User ID or Password</a></p>
+        </div>
+        <button class="btn" type="submit"><span>&#128274;</span>Sign In</button>
+    </nav>
+    <header class="flex header">
+        <img src="./assets/images/Screenshot from 2020-07-14 10-24-13.png" alt="intuit logo">
+        <img src="./assets/images/mint_quick_turbo.png" alt="">
+    </header>
+    <main>
+        <form class="form">
+            <div class="form-padding flex"> 
+                <h1 class="center">Create an Intuit account</h1>
+                <p class="center intro zero-mgn">One account for everything Intuit, including Mint.</p>
+                <p class="center zero-mgn"><a href="#">Learn more</a></p>
+                <label for="email">Email Address</label>
+                <input type="email" autocomplete="email">
+                <label for="tel">Phone (recommended)</label>
+                <input type="tel" id="tel" autocomplete="tel">
+                <p class="small">Standard call, messaging or data rates may apply</p>
+                <label for="password">Password</label>
+                <input type="password" id="password" autocomplete="current-password">
+                <span class="pwd-key">&#128275;</span>
+                <button class="btn" type="submit"><span>&#128274;</span> Create Account</button>
+                <p class="consent zero-mgn">By clicking Create account, you agree to our
+                    Terms and have read and acknowledge our Privacy Statement.</p>
+            </div>
+            <p class="form-footer center">
+                Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
             </p>
-            <form class="form">
-                <div class="field flex">
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div class="field flex">
-                    <label for="username">Username</label>
-                    <input type="text" name="username">
-                </div>
-                <div class="field flex">
-                    <label for="password">Password<span>&#128065;</span><span>Show</span></label>
-                    <input type="password" name="password" id="password">
-                </div>
-                <div class="field flex">                    
-                    <button type="button">Sign Up</button>
-                    <div>
-                        <input type="checkbox" tabindex="0" class="hidden" id="checkbox">
-                        <label for="checkbox">I do not want to receive emails
-                            about new Mailchimp products, 
-                            best practices, or special offers
-                        </label>
-                    </div>
-                
-                </div>
-                <button class="button" type="submit">Submit</button>
-            </form>
-          </section>
-        </main>
-    
+        </form>
+    </main>
+    <footer class="footer flex">
+       <ul class="flex">
+           <li><a href="#">AFAFaf</a></li>
+           <li><a href="#">AFAFaf</a></li>
+           <li><a href="#">AFAFaf</a></li>
+       </ul>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
 </body>
 </html>
