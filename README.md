@@ -11,7 +11,7 @@ This is a challenge to create a replica of Mint Signup Form.
 ​
 ## Live Demo
 
-https://optimistic-snyder-198b69.netlify.app/
+[mint.com](https://optimistic-snyder-198b69.netlify.app/)
 
 ## Authors
 
